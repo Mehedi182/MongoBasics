@@ -1,3 +1,8 @@
+# Cloud MongoDB Setup
+# Description: This MongoDB setup is hosted in the cloud using MongoDB Atlas, a fully managed database service provided by MongoDB.
+# Purpose: The cloud setup allows for easy scalability, automatic backups, and high availability. It is ideal for production environments or when you need to access the database from multiple locations.
+# Connection Details: Use the connection string provided by MongoDB Atlas to connect your application to the cloud MongoDB cluster.
+
 import os
 import pymongo
 from pymongo import MongoClient
